@@ -1,7 +1,18 @@
 * {
     box-sizing: border-box;
   }
-  
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]:hover {
+    -moz-appearance: button;
+}
+
+input[type="number"]:focus {
+    -moz-appearance: button;
+}
+
 body {
     margin: 0;
     
