@@ -948,7 +948,7 @@ strong {
 
   /* Responsive layout - makes a one column-layout instead of a two-column layout */
 
-  @media screen and (max-width: 700px) and (min-width: 400px) {
+  @media screen and (max-width: 700px) and (min-width: 1px) {
 
     #d1, #d2, #d3, #d4, #date, .background10, .background9, .background8 {
         display: none !important;
